@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d0518406-c24b-4c73-ba76-4e4a79241ecc" name="Changes" comment="opencv_basic_masking">
+      <change afterPath="$PROJECT_DIR$/src/kostka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie4.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="opencv_basic_splitting_and_merging" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2u2FMyYGoMzOAB869M1D2wJnmv2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "Python.z1.executor": "Run",
+    "Python.z10.executor": "Run",
+    "Python.z2.executor": "Run",
+    "Python.z3.executor": "Run",
+    "Python.z4.executor": "Run",
+    "Python.z5.executor": "Run",
+    "Python.z6.executor": "Run",
+    "Python.z7.executor": "Run",
+    "Python.z8.executor": "Run",
+    "Python.z9.executor": "Run",
+    "Python.zadanie1.executor": "Run",
+    "Python.zadanie2.executor": "Run",
+    "Python.zadanie3.executor": "Run",
+    "Python.zadanie4.executor": "Debug",
+    "Python.zadanie5.executor": "Run",
+    "Python.zadanie6.executor": "Run",
+    "Python.zadanie7.executor": "Run",
+    "Python.zadanie8.executor": "Run",
+    "Python.zadanie9.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "opencv__object__detection__shape__detection",
+    "last_opened_file_path": "/Users/I334152/Documents/studia/zaawansowane_programowanie/ZP",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="ZP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-fc1d50d2d915-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.24978.54" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0518406-c24b-4c73-ba76-4e4a79241ecc" name="Changes" comment="" />
+      <created>1741438717417</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741438717417</updated>
+    </task>
+    <task id="LOCAL-00001" summary="opencv_basic_resizing">
+      <option name="closed" value="true" />
+      <created>1744554790726</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744554790726</updated>
+    </task>
+    <task id="LOCAL-00002" summary="opencv_basic_numpy_slicing">
+      <option name="closed" value="true" />
+      <created>1744557750210</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744557750210</updated>
+    </task>
+    <task id="LOCAL-00003" summary="opencv_basic_arithmetic">
+      <option name="closed" value="true" />
+      <created>1744560300246</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744560300246</updated>
+    </task>
+    <task id="LOCAL-00004" summary="opencv_basic_bitwise">
+      <option name="closed" value="true" />
+      <created>1745660230986</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745660230986</updated>
+    </task>
+    <task id="LOCAL-00005" summary="opencv_basic_masking">
+      <option name="closed" value="true" />
+      <created>1745663222210</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745663222210</updated>
+    </task>
+    <task id="LOCAL-00006" summary="opencv_basic_masking">
+      <option name="closed" value="true" />
+      <created>1746975241380</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746975241380</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="opencv_basic_drawing" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="opencv_basic_resizing" />
+    <MESSAGE value="opencv_basic_numpy_slicing" />
+    <MESSAGE value="opencv_basic_arithmetic" />
+    <MESSAGE value="opencv_basic_bitwise" />
+    <MESSAGE value="opencv_basic_masking" />
+    <option name="LAST_COMMIT_MESSAGE" value="opencv_basic_masking" />
+  </component>
+</project>

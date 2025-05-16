@@ -4,11 +4,8 @@ image = cv2.imread('src/kojot.jpg')
 print(f"height: {h}, width: {w}")
 
 
-(cX, cY) = (w // 2, h // 2)
-
 cv2.imshow("Original", image)
-
-image[cY:h, cX:w] = (255, 0, 0)
+image[100,0:w]=(0,255,0)
 cv2.imshow("Changed", image)
 cv2.waitKey(0)  # Czeka na dowolny klawisz, by zamknąć okno
 cv2.destroyAllWindows()  # Zamknięcie wszystkich okien

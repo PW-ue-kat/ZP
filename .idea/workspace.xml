@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0518406-c24b-4c73-ba76-4e4a79241ecc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/grinch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/z1.py" beforeDir="false" afterPath="$PROJECT_DIR$/z1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/z2.py" beforeDir="false" afterPath="$PROJECT_DIR$/z2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/z3.py" beforeDir="false" afterPath="$PROJECT_DIR$/z3.py" afterDir="false" />
@@ -48,10 +51,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "opencv__basic__drawing",
-    "last_opened_file_path": "/Users/I334152/Documents/studia/zaawansowane_programowanie/ZP",
+    "last_opened_file_path": "/Users/I334152/Documents/studia/zaawansowane_programowanie/ZP/src",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="ZP" />

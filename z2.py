@@ -1,18 +1,26 @@
+# import the necessary packages
+import numpy as np
 import cv2
-image = cv2.imread('src/kojot.jpg')
+# initialize our canvas as a 300x300 pixel image with 3 channels
+# (Red, Green, and Blue) with a black background
+canvas = np.zeros((400, 400, 3), dtype="uint8")
 
+blue = (255,0,0)
+red = (0,0, 255)
+green = (0, 255,0)
+cv2.imshow("Original", canvas)
+# Zielony prostokąt o wymiarach 100x50 pikseli w lewym górnym rogu.
+cv2.rectangle(canvas, (0,0),(100,50),green)
+cv2.imshow("Green", canvas)
+# Czerwony prostokąt o grubości 3 px w prawym dolnym rogu.
 
-(b, g, r) = image[0, 0]
-print("Pixel at (0, 0) - Red: {}, Green: {}, Blue: {}".format(r, g, b))
+(h, w) = canvas.shape[:2]
 
-(h, w) = image.shape[:2]
-(b, g, r) = image[h-1, w-1]
+cY = (h//2)
+cX = (w//2)
 
-print(f"Pixel at ({h}, {w}) - Red: {r}, Green: {g}, Blue: {b}")
+cv2.rectangle(canvas, (cX,cY),(w-1,h-1),red,3)
 
-cv2.imshow("Original", image)
-image[h-1, w-1] = (0, 0, 255)
-(b, g, r) = image[h-1, w-1]
-print(f"Pixel at ({h}, {w}) - Red: {r}, Green: {g}, Blue: {b}")
-cv2.imshow("Changed", image)
+cv2.imshow("Changed", canvas)
+
 cv2.waitKey(0)

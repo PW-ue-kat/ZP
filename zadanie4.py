@@ -10,6 +10,8 @@ mask = np.zeros(original.shape[:2], dtype="uint8")
 
 B = cv2.add(50, B)
 
+(B, G, R) = cv2.split(original)
+
 merged = cv2.merge([B,G,R])
 cv2.imshow("Original", original)
 cv2.imshow("Strengthened Blue", merged)

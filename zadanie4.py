@@ -3,8 +3,6 @@ import numpy as np
 
 image_w = cv2.imread("src/wywern.jpg")
 
-
-
 b, g, r = cv2.split(image_w)
 M = np.ones(b.shape, dtype="uint8")*10
 b = cv2.add(b, M)
@@ -18,8 +16,6 @@ filtered_image = cv2.merge([b, g, r])
 cv2.imshow("Original", image_w)
 cv2.imshow("Filtred Image", filtered_image)
 cv2.imwrite("src/wywern_filtered.jpg",filtered_image)
-
-
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()

@@ -9,7 +9,7 @@ mode_names = {
     cv2.RETR_LIST: 'RETR_LIST'
 }
 
-image = cv2.imread('src/kostka.png')
+image = cv2.imread('src/kostka2.png')
 print(image.shape)
 resized = imutils.resize(image, width=300)
 ratio = image.shape[0] / float(resized.shape[0])

@@ -5,7 +5,7 @@ import imutils
 
 
 
-image = cv2.imread('src/kostka.png')
+image = cv2.imread('src/kostka2.png')
 print(image.shape)
 #Im wyższa rozdzielczość tym lepsza jakość
 new_width=int(image.shape[1]*0.8)

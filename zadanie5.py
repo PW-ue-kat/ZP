@@ -29,25 +29,23 @@ for i, c in enumerate(cnts):
     c *= ratio
     c = c.astype("int")
     x, y, w, h = cv2.boundingRect(c)
-    #print(f"{x},{y},{w},{h}")
+    print(f"{x},{y},{w},{h}")
     (mid_x , mid_y)=(int(x+(w/2)),int(y+(h/2)))
 
-    #print(f"middle: {mid_x},{mid_y}")
+    print(f"middle: {mid_x},{mid_y}")
     mask = np.zeros(image.shape[:2], dtype="uint8") # Create mask where white
     cv2.drawContours(mask, [c], -1, 255, -1) # Draw filled contour in mask
 
     segmented_brick = cv2.bitwise_and(image, image, mask=mask)
     roi = segmented_brick[y:y + h, x:x + w]
-    # Show the output image
-    cv2.imshow('mask', mask)
-    cv2.imshow('segmented_brick', segmented_brick)
-    cv2.imshow('ROI', roi)
-    cv2.drawContours(image, [c], -1, (0, 255, 0), 2)
-    cv2.putText(image,f"{i+1}",(mid_x,mid_y),cv2.FONT_HERSHEY_SIMPLEX,fontScale = 1, color = (0, 255, 0),thickness=2)
-    # show the output image
-    cv2.imshow("Image", image)
-    cv2.imwrite(f"src/kostka_{i+1}.png",roi)
-    cv2.waitKey(0)
 
+
+    cv2.rectangle(image,(x,y),((x+w),(y+h)),color = (0, 255, 0),thickness=2)
+    cv2.putText(image,f"{w}x{h}",(x,mid_y),cv2.FONT_HERSHEY_SIMPLEX,fontScale = 1, color = (0, 255, 0),thickness=2)
+    # show the output image
+
+cv2.imshow("Image", image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 
 

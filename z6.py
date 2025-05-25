@@ -15,7 +15,7 @@ scaled_w = int(w*3)
 
 
 
-resized = imutils.resize(image_b, width=500)
+resized = imutils.resize(image_b, height=400)
 
 cv2.imshow("Resized", resized)
 

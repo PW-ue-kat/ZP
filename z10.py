@@ -15,9 +15,11 @@ scaled_w = int(w*3)
 
 
 
-resized = imutils.resize(image_b, width=500)
+resized = imutils.resize(image_b, width=800)
 
 cv2.imshow("Resized", resized)
+
+cv2.imwrite("src/resized_output.jpg", resized)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
